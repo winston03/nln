@@ -1,0 +1,97 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(darkcity.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1250px 620px;
+}
+
+li {
+  font-family: "Lucida Console", "Courier New", monospace;
+  list-style-type: none;
+}
+
+.aboutus {
+  text-decoration: none;
+  color: white;
+}
+
+.aboutusposition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutusposition2 {
+  position: relative;
+  top: -30px;
+}
+
+.quotes {
+  color: white;
+  font-size: 40;
+  font-family: 'Shadows Into Light', cursive;
+  width: 500px;
+}
+
+.positionquotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.position2q {
+  position: relative;
+  top: 50px;
+}
+
+.logo {
+  padding: 25px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.fade:hover {
+  transition: .3s ease-in-out;
+  transition-delay: .5s;
+  border-radius: 8px;
+}
+
+.igcoy {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.dateposi {
+  font-family: 'Caveat', cursive;
+  position: relative;
+  font-size: 20;
+  bottom: -150px;
+}
+
+.nlninsta {
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: absolute;
+  top: -455px;
+  right: 100px;
+  font-size: 12;
+}
+
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: white;
+  }
+}
